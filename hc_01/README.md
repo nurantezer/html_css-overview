@@ -10,3 +10,10 @@ EKLENTİLER
 - Html css support
 - Marerial ıcon theme 
 - GitLens kodu değiştiren kişleri gösteriyor
+- attributes: tagleri özelleştirmek için kullanılır.Mesela src, class
+
+h$*6   h$*6{bu}
+mouse + alt tuşu
+Alt + yukarı yön tuşu taşıma
+Shift + yön tuşları bir alanı seçme
+vcode shortcuts
