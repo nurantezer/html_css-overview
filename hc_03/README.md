@@ -1,0 +1,1 @@
+ctrl d + fareye basılı tut hepsini seçme
