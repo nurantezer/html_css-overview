@@ -1,0 +1,1 @@
+cascading: birbirini takip eden prantteki bir özelliği çocuklara dağıtıyor.
