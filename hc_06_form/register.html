@@ -18,7 +18,8 @@
     <form action="">
         <div>
             <label for="firstname">First Name</label>
-            <input 
+            <input
+            class="inputs" 
             type="text" 
             name="firstname" 
             id="firstname" 
@@ -30,6 +31,7 @@
         <div>
             <label for="lastname">Last Name</label>
             <input 
+            class="inputs" 
             type="text" 
             name="lastname" 
             id="lastname" 
@@ -41,6 +43,7 @@
         <div>
             <label for="lastname">Email</label>
             <input 
+            class="inputs" 
             type="email" 
             name="email" 
             id="lastname" 
@@ -52,6 +55,7 @@
         <div>
             <label for="password">Password</label>
             <input 
+            class="inputs" 
             type="password" 
             name="password" 
             id="password" 
@@ -63,6 +67,7 @@
         <div>
             <label for="dob">Day of Birth</label>
             <input 
+            class="inputs" 
             type="date" 
             name="dob" 
             id="dob" 
@@ -76,6 +81,7 @@
         <div>
             <label for="phone">Phone</label>
             <input 
+            class="inputs" 
             type="tel" 
             name="phone" 
             id="phone" 
@@ -84,15 +90,15 @@
             >
         </div>
         
-        <div>
+        <div class="textarea-div">
             <label for="address">Address</label>
             <textarea name="address" id="address" cols="30" 
-            rows="5"></textarea>
+            rows="5" class="inputs" ></textarea>
         </div>
 
         <div>
             <label for="country">Country</label>
-            <select name="country" id="country">
+            <select class="inputs" name="country" id="country">
                 <option value="">Select Country</option>
                 <option value="Turkey">Turkey</option>
                 <option value="DE">Germany</option>
@@ -133,7 +139,7 @@
         </div>
       </div>
 
-        <div>
+        <div class="btn-container">
             <input type="submit" value="Save">
             <input type="reset" value="Clear">
         </div>
