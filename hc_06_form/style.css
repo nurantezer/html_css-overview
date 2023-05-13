@@ -8,3 +8,31 @@ body {
     font-family: 'Great Vibes', cursive;
     font-family: 'Rubik', sans-serif;
 }
+
+form {
+    background-color: antiquewhite;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+/*! label inline elementtir. Dolayisiyla width property'si dogrudan calismaz */
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+/*? radio buton ve checkbox'lari bir div'e koydugumuz ve div bir blok element oldugu icin bu elementler label'in alt satirina inmis oldular. 
+
+/*? div'leri yeniden yukari cikarmak icin bu div'lere class atamasi yaptik ve inline-block haline getirdik.*/
+.lang-div,
+.gender-div {
+  display: inline-block;
+}
+
+/* birbirlerine uzaklıklarını ayarladık */
+.lang-div label,
+.gender-div label {
+  width: auto;
+  margin-right: 10px;
+}
