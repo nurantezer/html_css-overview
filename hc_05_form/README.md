@@ -6,3 +6,9 @@ google fonts
 pixabay
 css gradient
 box shadow css
+validation type değiştimek geçerliliği sorgularız.
+search geçmişte yazdıklarımızı öneriyor
+# hexadesimal
+hsl HSL(120,%100,%40)
+select   combobox
+datalist yeni veri ekliyoruz select boxtan farkı
