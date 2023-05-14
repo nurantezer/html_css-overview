@@ -50,7 +50,8 @@
     text-align: center;
   }
   
-  /*? Inline element icerik kadar yer kaplarlar. Bu sebepten dolayi margin ve padding top ve bottom degerlerini alamazlar. Bu ozelikleri kullanmak icin elementler display property si ile inline-block haline getirilebilr*/
+  /*? Inline element icerik kadar yer kaplarlar. Bu sebepten dolayi margin ve padding top ve bottom degerlerini alamazlar. 
+  //*?Bu ozelikleri kullanmak icin elementler display property si ile inline-block haline getirilebilr*/
   .nav li {
     display: inline-block;
     width: 100px;
