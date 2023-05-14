@@ -11,8 +11,8 @@ body {
 }
 
 form {
-     background-color: #85ffbd;
-     background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
     text-align: center;
     padding: 20px;
     /* tam kutu kadar oldu padding fazla gösteriyotr */
