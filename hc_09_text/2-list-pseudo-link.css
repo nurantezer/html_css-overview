@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+
+}
+
+.languages {
+  /*? none | disc | circle |square | decimal etc. */
+  list-style-type: square;
+  list-style-position: inside;
+  /* inside outside simgeler içerde dışarıda*/
+  /* padding: 0; */
+  /* margin-left: 20px; */
+  /* list-style-image: linear-gradient(to left bottom, red, blue); */
+  list-style-image: url("./img/house-solid.svg");
+}
