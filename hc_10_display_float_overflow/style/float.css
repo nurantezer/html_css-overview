@@ -1,3 +1,6 @@
+* {
+    margin: 0;
+}
 .img-float {
     width: 40%;
     float: left;
@@ -6,4 +9,30 @@
 
 .par1 {
     border: 1px solid red;
+}
+
+/** Float ozelligini eski akisina getirmek icin clear property'si kullanilir.  */
+/*! boş div ve bu floatlığı temizliyor */
+.clearfix {
+    clear: both; /*? her iki yondeki float akisini temizle*/
+}
+
+.box {
+    float: left;
+    font-size: 2rem;
+}
+
+.box1 {
+    background-color: aquamarine;
+    width: 40%;
+}
+
+.box2 {
+    background-color: magenta;
+    width: 35%;
+}
+
+.box3 {
+    background-color: purple;
+    width: 15%;
 }
