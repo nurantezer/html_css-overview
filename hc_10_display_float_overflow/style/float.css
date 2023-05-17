@@ -1,3 +1,9 @@
 .img-float {
     width: 40%;
+    float: left;
+    margin-right: 0.8rem;
+}
+
+.par1 {
+    border: 1px solid red;
 }
