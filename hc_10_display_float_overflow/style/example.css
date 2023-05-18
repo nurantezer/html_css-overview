@@ -9,16 +9,18 @@ h1 {
     font-variant: small-caps;
     color: orange;
     background-color: rgba(10, 57, 45, 0.8);
+    padding: 2rem;
 }
 
 #brand {
-    width: 50px;
+    width: 60px;
 }
 
 nav {
     background-color: lightgrey;
     position: sticky;
     top: 0px;
+
 }
 
 ul {
@@ -115,4 +117,25 @@ button {
     display: block;
     margin-top: 1rem;
     padding: 0.5rem;
+}
+
+.comment-cards {
+    position: relative;
+    background-color: black;
+}
+
+.image1 {
+    width: 20%;
+}
+
+.image2 {
+    width: 20%;
+    position: absolute;
+    left: 3rem;
+    top: 3rem;
+}
+
+.image3 {
+    position:absolute ;
+    z-index: 10;
 }
