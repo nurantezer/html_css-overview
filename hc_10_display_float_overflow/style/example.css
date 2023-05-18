@@ -34,3 +34,85 @@ li {
 a {
     text-decoration: none;
 }
+
+.avatar {
+    width: 50px;
+}
+
+.commnets-container {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+}
+
+.comment-left {
+    width: 60%;
+}
+
+.comment-header {
+    position: relative;
+    left: 1rem;
+}
+
+.commnets {
+    margin: 1rem;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 80%;
+    height: 6rem;
+    position: relative;
+    overflow: auto;
+}
+
+.dark {
+    background-color: rgb(10, 57, 45);
+}
+
+.light {
+    border: 2px solid rgb(10, 57, 45);
+}
+
+.commnets-container {
+    position: relative;
+}
+
+.commnet {
+    position: absolute;
+    top: 0px;
+    left: 5rem;
+}
+
+.comment-right {
+    background-color:rgba(10, 57, 45);
+    width: 30%;
+    position: absolute;
+    top: 64px;
+    right: 20px;
+    padding: 1rem;
+    border-radius: 1rem;
+   
+}
+
+label {
+    color: white;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    background-color: orange;
+    border-radius: 1rem;
+    display: block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
