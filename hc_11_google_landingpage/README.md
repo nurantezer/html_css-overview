@@ -6,3 +6,9 @@
 
 
 - Landing page'ler, kullanıcıları "Başlayın", "Abone olun" veya "Satın alın" gibi eylem çağrılarına tıklamaya davet eder. "Call-to-action" (CTA) olarak bilinen bu eylem çağrıları kullanıcıları ücretsiz denemeye kaydolma, bir hizmete abone olma veya alışveriş yapma gibi çeşitli şekillerde dönüşüm yaratmaya ikna ederler.
+
+.main__search-bar--magnifier {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
