@@ -37,3 +37,25 @@ header .sign-in a {
 header .sign-in a:hover {
     border-bottom: 2px solid #920101;
 }
+
+/*! NAV STICKY  */
+/*!-----------------------------------*/
+nav.sticky {
+    position: sticky;
+    top: 0;
+    padding: 2rem;
+    background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+    text-align: center;
+    z-index: 1;
+}
+
+nav.sticky a {
+    font-family: "DynaPuff", cursive;
+    text-decoration: none;
+    color: black;
+    margin-right: 0.8rem;
+}
+
+nav.sticky a:hover {
+    color: white;
+}
