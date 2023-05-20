@@ -73,7 +73,7 @@
     /* transition: background-color 1s, color 0.5s; */
     transition: all 0.5s;
     transition: background-color 3s cubic-bezier(0, 1.09, 1, 0.11),color 1s;
-    transition:all 2s  ease-in-out 1s;
+    /* transition:all 2s  ease-in-out 1s; */
     /*! Tüm propertileri izlemek için all kelimesi kullanılabilir*/
 }
 
