@@ -1,1 +1,5 @@
 - Bir container içerisinde taşımak istedğimiz elementler.
+- align-items dikey hizalama için bir height olması lazım
+- align-content grup şeklinde sıralama
+- gap satırlar ve sütunlar arasındaki boşluk
+- flex-directionu rowdan columna çektiğimde jc, ai ters çalışıyor.
