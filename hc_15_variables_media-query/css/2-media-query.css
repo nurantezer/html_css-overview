@@ -81,3 +81,66 @@ nav.hero p {
     line-height: var(--line-h-xl);
     text-align: justify;
 }
+
+main .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px;
+    box-shadow: var(--shadow-light);
+    padding: 1rem;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+main .card article {
+    flex: 1;
+    line-height: var(--line-h-xl);
+}
+
+main .card img {
+    width: 100%;
+}
+
+main .card:nth-child(odd) {
+    flex-direction: row;
+}
+
+main .card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    header button {
+        margin: 0.5rem;
+    }
+    header img {
+        width: 250px;
+    }
+    nav.hero {
+        flex-direction: column;
+    }
+    nav.hero section {
+        text-align: center;
+    }
+    main .card:nth-child(odd) {
+        flex-direction: column;
+    }
+    main .card:nth-child(even) {
+        flex-direction: column;
+    }
+
+    body {
+        background-color: var(--blue-light-5);
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    body {
+        background-color: var(--grey-10);
+    }
+}
