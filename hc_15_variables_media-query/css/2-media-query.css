@@ -53,3 +53,31 @@ button:hover {
     background-color: var(--red-dark);
     color: var(--white);
 }
+
+nav.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav.hero section {
+    flex: 1;
+}
+
+nav.hero img {
+    width: 100%;
+    min-width: 300px;
+}
+
+nav.hero h1 {
+    font-size: var(--fs-lg);
+    text-align: justify;
+    line-height: var(--line-h-xl);
+}
+
+nav.hero p {
+    font-size: var(--fs-md);
+    line-height: var(--line-h-xl);
+    text-align: justify;
+}
